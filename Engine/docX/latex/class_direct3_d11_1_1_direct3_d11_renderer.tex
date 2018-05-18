@@ -1,0 +1,47 @@
+\hypertarget{class_direct3_d11_1_1_direct3_d11_renderer}{}\section{Direct3\+D11\+:\+:Direct3\+D11\+Renderer Class Reference}
+\label{class_direct3_d11_1_1_direct3_d11_renderer}\index{Direct3\+D11\+::\+Direct3\+D11\+Renderer@{Direct3\+D11\+::\+Direct3\+D11\+Renderer}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a0c290e55a48545318e547bfeab9b73a5}\label{class_direct3_d11_1_1_direct3_d11_renderer_a0c290e55a48545318e547bfeab9b73a5}} 
+\mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a0c290e55a48545318e547bfeab9b73a5}{Direct3\+D11\+Renderer}} ()
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a31bd706c3e1309378b28ad06be636cb3}\label{class_direct3_d11_1_1_direct3_d11_renderer_a31bd706c3e1309378b28ad06be636cb3}} 
+\mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a31bd706c3e1309378b28ad06be636cb3}{$\sim$\+Direct3\+D11\+Renderer}} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_af9c0cf6d88c68028f66ebce59dd6a6d4}\label{class_direct3_d11_1_1_direct3_d11_renderer_af9c0cf6d88c68028f66ebce59dd6a6d4}} 
+bool \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_af9c0cf6d88c68028f66ebce59dd6a6d4}{Create}} (unsigned int screen\+Width, unsigned int screen\+Height, bool vsync, H\+W\+ND h\+Wnd, bool fullscreen, float screen\+Depth, float screen\+Near)
+\begin{DoxyCompactList}\small\item\em create swapchain, device and device context \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a5d5900d1f76c7bc18b3882d22d5804ef}\label{class_direct3_d11_1_1_direct3_d11_renderer_a5d5900d1f76c7bc18b3882d22d5804ef}} 
+void \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a5d5900d1f76c7bc18b3882d22d5804ef}{Destroy}} ()
+\begin{DoxyCompactList}\small\item\em release \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a0be1f92a8e445dd219a2bc7a0d3eb67d}\label{class_direct3_d11_1_1_direct3_d11_renderer_a0be1f92a8e445dd219a2bc7a0d3eb67d}} 
+bool \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a0be1f92a8e445dd219a2bc7a0d3eb67d}{Resize}} (int screen\+Width, int screen\+Height)
+\begin{DoxyCompactList}\small\item\em release and resize \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_aaf454f9e8982061da6ac83e80786f895}\label{class_direct3_d11_1_1_direct3_d11_renderer_aaf454f9e8982061da6ac83e80786f895}} 
+void \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_aaf454f9e8982061da6ac83e80786f895}{Begin\+Scene}} (float red, float green, float blue, float alpha)
+\begin{DoxyCompactList}\small\item\em Clear the buffers to begin the scene. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_ac83b9140313eca4e7e02ae0e97a57105}\label{class_direct3_d11_1_1_direct3_d11_renderer_ac83b9140313eca4e7e02ae0e97a57105}} 
+void \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_ac83b9140313eca4e7e02ae0e97a57105}{End\+Scene}} ()
+\begin{DoxyCompactList}\small\item\em Present the rendered scene to the screen. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_aa0a707e33e539f95f77bf1a1d10a7a06}\label{class_direct3_d11_1_1_direct3_d11_renderer_aa0a707e33e539f95f77bf1a1d10a7a06}} 
+const I\+D3\+D11\+Device $\ast$ \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_aa0a707e33e539f95f77bf1a1d10a7a06}{Get\+Device}} () const
+\begin{DoxyCompactList}\small\item\em get device \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_ae78d23bb17dd6aef3f0c57461bf35aae}\label{class_direct3_d11_1_1_direct3_d11_renderer_ae78d23bb17dd6aef3f0c57461bf35aae}} 
+const I\+D3\+D11\+Device\+Context $\ast$ \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_ae78d23bb17dd6aef3f0c57461bf35aae}{Get\+Device\+Context}} () const
+\begin{DoxyCompactList}\small\item\em get device context \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a8aeaf83ec282381a4d5520f0bf7bcffc}\label{class_direct3_d11_1_1_direct3_d11_renderer_a8aeaf83ec282381a4d5520f0bf7bcffc}} 
+Direct\+X\+::\+X\+M\+M\+A\+T\+R\+IX \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a8aeaf83ec282381a4d5520f0bf7bcffc}{Get\+Projection\+Matrix}} () const
+\begin{DoxyCompactList}\small\item\em get projection matrix \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a97115e78c14d1dbe3bbbe3abcb2ae565}\label{class_direct3_d11_1_1_direct3_d11_renderer_a97115e78c14d1dbe3bbbe3abcb2ae565}} 
+Direct\+X\+::\+X\+M\+M\+A\+T\+R\+IX \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a97115e78c14d1dbe3bbbe3abcb2ae565}{Get\+World\+Matrix}} () const
+\begin{DoxyCompactList}\small\item\em get world matrix \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_direct3_d11_1_1_direct3_d11_renderer_a82600d1184f6ecd4cafcc60897ee6e91}\label{class_direct3_d11_1_1_direct3_d11_renderer_a82600d1184f6ecd4cafcc60897ee6e91}} 
+Direct\+X\+::\+X\+M\+M\+A\+T\+R\+IX \mbox{\hyperlink{class_direct3_d11_1_1_direct3_d11_renderer_a82600d1184f6ecd4cafcc60897ee6e91}{Get\+Ortho\+Matrix}} () const
+\begin{DoxyCompactList}\small\item\em get orthographic matrix \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Engine/code/renderer/direct3d11/direct3d11renderer.\+h\item 
+Engine/code/renderer/direct3d11/direct3d11renderer.\+cc\end{DoxyCompactItemize}

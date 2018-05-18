@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{ddbfc840-6867-456d-904a-8901ea7618ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\direct3d11">
+      <UniqueIdentifier>{ec545fca-757b-4ff1-945f-1f46bfdf7495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{be5b2b4b-5354-4e43-a14f-7e9745e0937a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows">
+      <UniqueIdentifier>{1b6cf96d-81a7-453b-aff1-163bcf982ccb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="code\stdneva.cc" />
+    <ClCompile Include="code\renderer\direct3d11\direct3d11renderer.cc">
+      <Filter>renderer\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="code\renderer\direct3d11\direct3d11model.cc">
+      <Filter>renderer\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="code\renderer\direct3d11\direct3d11shader.cc">
+      <Filter>renderer\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="code\renderer\direct3d11\direct3d11camera.cc">
+      <Filter>renderer\direct3d11</Filter>
+    </ClCompile>
+    <ClCompile Include="code\window\win32window.cc">
+      <Filter>windows</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="code\stdneva.h" />
+    <ClInclude Include="code\renderer\direct3d11\direct3d11renderer.h">
+      <Filter>renderer\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="code\renderer\direct3d11\direct3d11model.h">
+      <Filter>renderer\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="code\renderer\direct3d11\direct3d11shader.h">
+      <Filter>renderer\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="code\renderer\direct3d11\direct3d11camera.h">
+      <Filter>renderer\direct3d11</Filter>
+    </ClInclude>
+    <ClInclude Include="code\window\win32window.h">
+      <Filter>windows</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\basiccolor.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
